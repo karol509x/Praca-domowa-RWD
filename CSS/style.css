@@ -1,0 +1,27 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-image: url("../IMG/man-1.jpg");
+    background-size: 100% 700px;
+}
+
+#container {
+    
+    margin-bottom: 10px;
+}
+
+
+h1
+{
+
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+}
