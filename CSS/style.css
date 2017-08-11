@@ -27,7 +27,7 @@ h1
     }
 }
 
-@media (min-width: 992px) and (max-width: 1170px)
+@media (max-width: 1170px) and (min-width: 992px)
     {
         h1{
             text-align: right;
@@ -40,13 +40,14 @@ h1
         }
 }
 
-@media (max-width 992px)
+@media (max-width 992px) 
     {
-        h1{
-            text-align: center;
-            color: red;
+       body
+        {
+            background-size: 100% 230%;
+            margin-left: auto;
+            margin-right: auto;
             
-        }
 }
     
         
